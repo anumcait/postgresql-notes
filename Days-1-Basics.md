@@ -101,13 +101,13 @@ Official Documentation : https://www.postgresql.org/docs/
 Download installer from: https://www.postgresql.org/download/
 
 Installer includes:
-
+`
 PostgreSQL Server
 
 pgAdmin (GUI)
 
 StackBuilder (optional)
-
+`
 **✅ Linux (Ubuntu/Debian)**
 `
 sudo apt update
