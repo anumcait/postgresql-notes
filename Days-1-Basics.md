@@ -115,13 +115,16 @@ sudo apt install postgresql postgresql-contrib
 ```
 
 **💻 7. Using the psql CLI**
+
 ###▶️ Start PostgreSQL CLI (Linux/Mac)
 
 ```
 sudo -U postgres psql
 ```
 ###▶️ Useful psql Commands
+
 Command	Description
+
 \q  Quit psql
 \l  List Databases
 \c dbname connect to a database
