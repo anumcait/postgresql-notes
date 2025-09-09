@@ -109,10 +109,10 @@ pgAdmin (GUI)
 StackBuilder (optional)
 ```
 **✅ Linux (Ubuntu/Debian)**
-`
+```
 sudo apt update
 sudo apt install postgresql postgresql-contrib
-`
+```
 
 **💻 7. Using the psql CLI**
 ###▶️ Start PostgreSQL CLI (Linux/Mac)
