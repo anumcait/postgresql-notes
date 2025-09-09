@@ -165,7 +165,7 @@ INSERT INTO employee (name, age) VALUES ('Bob', 22);
 **▶️ Step 5: Query the table**
 
 `
-SELECT * FROM students;
+SELECT * FROM employee;
 `
 
 ### ✅ Output:
