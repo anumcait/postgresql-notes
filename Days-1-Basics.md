@@ -117,9 +117,9 @@ sudo apt install postgresql postgresql-contrib
 **💻 7. Using the psql CLI**
 ###▶️ Start PostgreSQL CLI (Linux/Mac)
 
-`
+```
 sudo -U postgres psql
-`
+```
 ###▶️ Useful psql Commands
 Command	Description
 \q  Quit psql
@@ -131,14 +131,14 @@ Command	Description
 
 ## 🧪 8. Create Your First Database
 ### ▶️ Step 1: Create a database
-`
+```
 CREATE DATABASE hr;
-`
+```
 
 ### ▶️ Step 2: Connect to the new database
-`
+```
 \c hr
-`
+```
 
 ### ▶️ Step 3: Create a table
 `
