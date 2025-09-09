@@ -75,7 +75,7 @@ It is used to perform CRUD Operations:
 - **U**: `UPDATE` — update data
 - **D**: `DELETE` — delete data
 
-### Example:
+**Example:**
 
 ```sql
 SELECT name FROM students WHERE age > 20;
@@ -92,7 +92,7 @@ SELECT name FROM students WHERE age > 20;
 
 - ✅ Used by major companies: Apple, Instagram, Reddit, etc.
 
-## 🛠️ 6. Installing PostgreSQL
+### 🛠️ 6. Installing PostgreSQL
 
 Official Documentation : https://www.postgresql.org/docs/
 
@@ -116,49 +116,54 @@ sudo apt install postgresql postgresql-contrib
 
 ## **💻 7. Using the psql CLI**
 
-### ▶️ Start PostgreSQL CLI (Linux/Mac)
+**▶️ Start PostgreSQL CLI (Linux/Mac)**
 
 ```
 sudo -U postgres psql
 ```
-### ▶️ Useful psql Commands
+**▶️ Useful psql Commands**
 
-Command	Description
+| Command  | Description |
+|--------- |-------------|
+| \q       | Quit psql   |
+| \l       | List Databases|
+| \c dbname| connect to a database|
+| \dt      | List tables in current database|
+| \du      | List users|
+| \h       | Get help on SQL Commands|
 
-\q  Quit psql
-\l  List Databases
-\c dbname connect to a database
-\dt  List tables in current database
-\du  List users
-\h  Get help on SQL Commands
+### 🧪 8. Create Your First Database
+**▶️ Step 1: Create a database**
 
-## 🧪 8. Create Your First Database
-### ▶️ Step 1: Create a database
-```
+``
 CREATE DATABASE hr;
-```
+``
 
-### ▶️ Step 2: Connect to the new database
-```
+**▶️ Step 2: Connect to the new database**
+
+``
 \c hr
-```
+``
 
-### ▶️ Step 3: Create a table
-`
+**▶️ Step 3: Create a table**
+
+``
 CREATE TABLE employee (
   id SERIAL PRIMARY KEY,
   name TEXT NOT NULL,
   age INT
 );
-`
+``
 
-### ▶️ Step 4: Insert data
-`
+**▶️ Step 4: Insert data**
+```
 INSERT INTO employee (name, age) VALUES ('Alice', 20);
-INSERT INTO employee (name, age) VALUES ('Bob', 22);
-`
 
-### ▶️ Step 5: Query the table
+INSERT INTO employee (name, age) VALUES ('Bob', 22);
+```
+
+**▶️ Step 5: Query the table**
+
 `
 SELECT * FROM students;
 `
