@@ -116,12 +116,12 @@ sudo apt install postgresql postgresql-contrib
 
 **💻 7. Using the psql CLI**
 
-###▶️ Start PostgreSQL CLI (Linux/Mac)
+### ▶️ Start PostgreSQL CLI (Linux/Mac)
 
 ```
 sudo -U postgres psql
 ```
-###▶️ Useful psql Commands
+### ▶️ Useful psql Commands
 
 Command	Description
 
