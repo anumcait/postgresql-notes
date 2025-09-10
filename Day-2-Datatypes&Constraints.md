@@ -1,7 +1,9 @@
 # 📘 Postgresql - Data Types & Constraints
 
 "In **Day-1**, We learnt about what is a database is , types of databases, basics of postgresql, how to install and create database with simple creation of table with select query.
+
 Today in **Day-2** we will learn two topics **data types and constraints**, for any database not only postgresql these two are foundations.
+
 These two decide how data is stored into tables and how reliable your database becomes."
 
 ---
