@@ -8,7 +8,7 @@ These two decide how data is stored into tables and how reliable your database b
 
 ---
 
-## What are Data types
+## What is a Data type
 A **Data type** is an attribute that **classifies the kind of data** that a **variable holds**.
 For Example: In an employee table, empid holds number or charcter based on requirement, Employee name must be character etc.
 
