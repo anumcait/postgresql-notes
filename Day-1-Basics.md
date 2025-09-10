@@ -1,4 +1,4 @@
-# 📘 PostgreSQL Notes — Day 1: Database Fundamentals & Postgresql basics
+# 📘 PostgreSQL - Day 1: Database Fundamentals & Postgresql basics
 ## In this we will cover
 - What is a Database?
 - Types of Databases
