@@ -82,7 +82,7 @@ VALUES ('{"user":"Tom","action":"login","status":"success"});
 # 🔹 PostgreSQL Constraints
 Constraints keep our data clean, consistent, and reliable.
 
-### 1.NOT NULL
+### 1. NOT NULL
 - Prevents empty values.
 📖 Example:
 ```sql
