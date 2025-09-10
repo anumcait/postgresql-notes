@@ -19,6 +19,7 @@ Postgresql is **powerful** because it supports **rich data types**.
 - `INTEGERS` -> Holds whole numbers (Ex: 10, 100, -50)
 - `NUMERIC(10,2)` -> Exact decimal numbers, good for money (like invoice total, rate etc.)
 - `SERIAL` -> Auto-increment numbers (Used for IDs generation etcc)
+
 📖 Example:
 ```sql
 CREATE TABLE salaries (
@@ -58,6 +59,7 @@ CREATE TABLE attendance (
 
 ### 4. Boolean Type
 - BOOLEAN -> TRUE / FALSE Used for active status, flags, etc.
+
 📖 Example:
 ```sql
 ALTER TABLE employees
@@ -68,6 +70,7 @@ ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
 ### 5. JSON / JSONB
 - JSON -> Raw JSON text
 - JSONB -> Binary JSON (faster for queries)
+
 📖 Example:
 ```sql
 CREATE TABLE audit_logs (
@@ -84,6 +87,7 @@ Constraints keep our data clean, consistent, and reliable.
 
 ### 1. NOT NULL
 - Prevents empty values.
+
 📖 Example:
 ```sql
 CREATE TABLE employees (
@@ -95,6 +99,7 @@ CREATE TABLE employees (
 
 ### 2. UNIQUE
 - Ensures no duplicate values.
+
 📖 Example:
 ```sql
 ALTER TABLE employees
@@ -103,6 +108,7 @@ ADD constraint unique_email UNIQUE(email);
 ### 3. PRIMARY KEY
 - Combines **NOT NULL + UNIQUE**
 - Identifies each row uniquely.
+
 📖 Example:
 ```sql
 CREATE TABLE departments (
@@ -117,6 +123,7 @@ CREATE TABLE departments (
 ### 4. FOREIGN KEY
 - Links one table to another.
 - Ensures referential integrity.
+
 📖 Example:
 ```sql
 CREATE TABLE employee (
@@ -129,6 +136,8 @@ CREATE TABLE employee (
 
 ### 5. CHECK
 - Validates conditions on values.
+
+📖 Example:
 ```sql
 ALTER TABLE employees
 ADD CONSTRAINT check_salary CHECK (salary > 0)
@@ -137,6 +146,8 @@ ADD CONSTRAINT check_salary CHECK (salary > 0)
 
 ### 6. DEFAULT
 - Assigns a default value if none is given.
+
+📖 Example:
 ```sql
 ALTER TABLE employees
 ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
