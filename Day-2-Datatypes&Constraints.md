@@ -15,7 +15,7 @@ For Example: In an employee table, empid holds number or charcter based on requi
 ## PostgreSQL Data Types:
 Postgresql is **powerful** because it supports **rich data types**.
 
-### Numeric Datatypes:
+### 1. Numeric Datatypes:
 - `INTEGERS` -> Holds whole numbers (Ex: 10, 100, -50)
 - `NUMERIC(10,2)` -> Exact decimal numbers, good for money (like invoice total, rate etc.)
 - `SERIAL` -> Auto-increment numbers (Used for IDs generation etcc)
@@ -28,7 +28,7 @@ CREATE TABLE salaries (
 ```
 ---
 
-### Text Types
+### 2. Text Types
 - CHAR(n) -> Fixed length string (pads with spaces)
 - VARCHAR(n) -> Variable length string, max n, if given VARCHAR(10), only 3 characters are there in data, it won't take spaces
 - TEXT -> Unlimited length string
@@ -42,7 +42,7 @@ CREATE TABLE departments (
 ```
 ---
 
-### Date/Time types
+### 3. Date/Time types
 - DATE -> 2025-09-10
 - TIME -> 14:30:00
 - TIMESTAMP -> 2025-09-08 14:30:00
@@ -56,7 +56,7 @@ CREATE TABLE attendance (
 ```
 ---
 
-### Boolean Type
+### 4. Boolean Type
 - BOOLEAN -> TRUE / FALSE Used for active status, flags, etc.
 📖 Example:
 ```sql
@@ -65,7 +65,7 @@ ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
 ```
 ---
 
-### JSON / JSONB
+### 5. JSON / JSONB
 - JSON -> Raw JSON text
 - JSONB -> Binary JSON (faster for queries)
 📖 Example:
