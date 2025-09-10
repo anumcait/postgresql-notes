@@ -1,4 +1,4 @@
-# 📘 Postgresql - Day-2 : Data Types & Constraints
+# 📘 PostgreSQL - Day-2 : Data Types & Constraints
 
 "In [**Day-1**](https://github.com/anumcait/postgresql-notes/blob/main/Day-1-Basics.md), We learnt about what is a database is , types of databases, basics of postgresql, how to install and create database with simple creation of table with select query.
 
