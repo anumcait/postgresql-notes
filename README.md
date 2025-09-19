@@ -8,7 +8,7 @@ Here is my journey to mastering **PostgreSQL**, documented day-by-day, with the 
 
 [Day-3: Joins&Relationships](Day-3-Joins&Relationships.md)
 
-[Day-4:Advanced Queries](Day-4-Advanced Queries.md)
+[Day-4: Advanced Queries](Day-4-Advanced%20Queries.md)
 
 
 
