@@ -1,6 +1,6 @@
 ## 📘 Advanced Queries (Functions, Operators & Expressions, GROUP BY, HAVING, Aggregate Functions)  
 
-In [Day-3](Day-3-Joins%26Relationships.md) we learned the basics of creating tables, inserting data using data types, constraints, and relationships and joins.
+In [Day-3](Day-3-Joins%26Relationships.md), we learned the basics of creating tables, inserting data using data types, constraints, and relationships and joins.
 
 But, in real-world usecases like reporting, data analytics (ERP), We rarely look at one row, instead we need to **calculate, transform, or manipulate data** while querying.
 
