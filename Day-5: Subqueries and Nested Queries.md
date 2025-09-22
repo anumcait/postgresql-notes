@@ -36,9 +36,8 @@ WHERE salary > (SELECT AVG(salary) FROM employee_master);
 
 **a) Single-row Subquery**
 
-Returns one value.
-
-Works with = , < , > , <= , >= , <>.
+- Returns one value.
+- Works with = , < , > , <= , >= , <>.
 
 ```sql
 SELECT emp_name
@@ -52,9 +51,9 @@ WHERE salary = (SELECT MAX(salary) FROM employee_master);
 
 **b) Multiple-row Subquery**
 
-Returns multiple values.
+- Returns multiple values.
+- Works with IN , ANY , ALL.
 
-Works with IN , ANY , ALL.
 ```sql
 SELECT emp_name
 FROM employee_master
@@ -82,9 +81,8 @@ WHERE (dept_id, salary) IN
 
 **d) Correlated Subquery**
 
-Inner query depends on outer query row.
-
-Executes repeatedly for each row.
+- Inner query depends on outer query row.
+- Executes repeatedly for each row.
 
 ```sql
 SELECT e1.emp_name, e1.salary
@@ -196,29 +194,25 @@ WHERE dept_id = (SELECT dept_id FROM employee_master WHERE emp_name = 'Rahul');
 
 **Q1. Difference between Subquery and JOIN?**
 
-Subquery: executes inner query first → passes result.
-
-JOIN: combines data from multiple tables directly.
+- Subquery: executes inner query first → passes result.
+- JOIN: combines data from multiple tables directly.
 
 👉 Subqueries are easier to read, JOINs are usually faster.
 
 **Q2. Can we use ORDER BY in subquery?**
 
-Yes, but usually only with LIMIT/TOP.
+- Yes, but usually only with LIMIT/TOP.
 
 **Q3. Difference between Correlated and Non-correlated Subquery?**
 
-Correlated: depends on outer query, runs multiple times.
-
-Non-correlated: independent, runs once.
+- Correlated: depends on outer query, runs multiple times.
+- Non-correlated: independent, runs once.
 
 **Q4. When to use IN, ANY, ALL?**
 
-IN → match from list.
-
-ANY → match condition with any value.
-
-ALL → match condition with all values.
+- IN → match from list.
+- ANY → match condition with any value.
+- ALL → match condition with all values.
 
 **Q5. Real-world DevOps use case?**
 
