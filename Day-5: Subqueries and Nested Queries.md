@@ -1,6 +1,6 @@
 # PostgresSQL Day-5: 📘 Subqueries & Nested Queries
 
-Until now, we learned advanced queries with GROUP BY, HAVING, and aggregate functions that help in summarizing data.
+In [Day-4](Day-4), we learned advanced queries with GROUP BY, HAVING, and aggregate functions that help in summarizing data.
 
 But in real-world ERP/DevOps reporting, we often need to filter data based on another query’s result, or compare one dataset with another dynamically.
 
