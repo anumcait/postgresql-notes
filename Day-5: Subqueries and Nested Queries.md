@@ -148,7 +148,7 @@ GROUP BY dept_id
 HAVING AVG(salary) > (SELECT AVG(salary) FROM employee_master);
 ```
 
-# 🎯 Mock Test
+## 🎯 Mock Test
 
 **Find employees who earn more than the average salary of the company.**
 ```sql
@@ -190,7 +190,7 @@ WHERE dept_id = (SELECT dept_id FROM employee_master WHERE emp_name = 'Rahul');
 ```
 
 
-# 🎤 Interview Questions & Answers
+## 🎤 Interview Questions & Answers
 
 **Q1. Difference between Subquery and JOIN?**
 
@@ -222,7 +222,7 @@ SELECT server_id, cpu_usage
 FROM servers s1
 WHERE cpu_usage > (SELECT AVG(s2.cpu_usage) FROM servers s2 WHERE s1.cluster_id = s2.cluster_id);
 ```
-# 🔑 Key Takeaways
+## 🔑 Key Takeaways
 
 - Subquery = query inside another query.
 - Types: Single-row, Multi-row, Multi-column, Correlated, Nested.
