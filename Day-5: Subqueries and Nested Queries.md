@@ -1,4 +1,4 @@
-# Postgres Day-5: 📘 Subqueries & Nested Queries
+# PostgresSQL Day-5: 📘 Subqueries & Nested Queries
 
 Until now, we learned advanced queries with GROUP BY, HAVING, and aggregate functions that help in summarizing data.
 
