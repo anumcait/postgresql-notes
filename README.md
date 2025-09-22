@@ -10,7 +10,7 @@ Here is my journey to mastering **PostgreSQL**, documented day-by-day, with the 
 
 [Day-4: Advanced Queries](Day-4-Advanced%20Queries.md)
 
-[Day-5: Subqueries and Nested Queries.md](Day-5: Subqueries and Nested Queries.md)
+[Day-5: Subqueries and Nested Queries.md](Day-5%3A%20Subqueries%20and%20Nested%20Queries.md)
 
 
 
